@@ -1,6 +1,6 @@
 // relationshipData.js
 module.exports = {
-  // Define your relationship data here
+  // Define relationship data here
   productClientRelationship: {
     mvProductClientUpdate: {
       ProductID: 38,

@@ -1,6 +1,6 @@
 // productData.js
 module.exports = [
-    // Define your product data here as an array of objects
+    // Define product data here as an array of objects
     {
       mvProduct: {
         ProductSKU: 1112256,

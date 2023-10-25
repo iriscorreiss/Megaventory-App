@@ -1,6 +1,6 @@
 // productSupplierClientData.js
 module.exports = [
-    // Define your supplier/client data here as an array of objects
+    // Define supplier/client data here as an array of objects
     {
       mvSupplierClient: {
         SupplierClientType: 'Client',

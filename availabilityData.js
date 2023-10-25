@@ -1,6 +1,6 @@
 // availabilityData.js
 module.exports = [
-    // Define your availability data here as an array of objects
+    // Define availability data here as an array of objects
     {
       mvSupplierStockUpdate: {
         ProductID: 38,

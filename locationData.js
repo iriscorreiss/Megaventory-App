@@ -1,6 +1,6 @@
 // locationData.js
 module.exports = [
-    // Define your location data here as an array of objects
+    // Define location data here as an array of objects
     {
       mvInventoryLocation: {
         InventoryLocationName: 'Test Project Location',
