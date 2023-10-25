@@ -1,4 +1,6 @@
 MegaVentory API Integration
+
+
 This repository contains a Node.js application that provides a seamless integration with the MegaVentory API. MegaVentory is a service that helps businesses manage their inventory and relationships with suppliers and clients. With this application, you can easily insert and update product information, supplier/client data, inventory locations, and availability information using the MegaVentory API.
 
 Getting Started
