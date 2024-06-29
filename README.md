@@ -15,7 +15,7 @@ This project was developed for a job application and showcases an application us
 9. [Changelog](#changelog)
 10. [Contact Information](#contact-information)
 
-##Installation
+## Installation
 To install and run the project locally:
 
 1. **Clone the repository:**
@@ -38,14 +38,14 @@ pip install -r requirements.txt
 python app.py
 ```
 
-##Usage
+## Usage
 The application connects to the Megaventory API and allows users to manage inventory, process orders, and view reports. 
 It provides a comprehensive interface for handling various inventory management tasks.
 
-##Configuration
+## Configuration
 Update the configuration file with your Megaventory API key and other necessary details.
 
-##Contributing
+## Contributing
 Contributions are welcome! Follow these steps to contribute:
 
 Fork the repository.
@@ -66,20 +66,19 @@ Fork the repository.
 
 4. Open a pull request.
 
-
-##License
+## License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-##Authors and Acknowledgments
+## Authors and Acknowledgments
 - **Iris Correia** - Initial work - [GitHub Profile](https://github.com/iriscorreiss)
 - Acknowledgments to any libraries or third-party tools used.
 
-##FAQ
+## FAQ
 Q: What functionalities does the Megaventory App offer?
 A: The app provides features such as inventory management, order processing, and report generation using the Megaventory API.
 
-##Changelog
+## Changelog
 All notable changes to this project will be documented here.
 
-##Contact Information
+## Contact Information
 For inquiries or feedback, please contact Iris Correia.
