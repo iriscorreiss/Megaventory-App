@@ -1,55 +1,85 @@
-MegaVentory API Integration
+# Megaventory App
+
+## Description
+This project was developed for a job application and showcases an application using Megaventory's API. The app demonstrates various functionalities such as inventory management and order processing.
+
+## Table os Contents
+1. [DEascription](#description)
+2. [Installation](#installation)
+3. [Usage](#usage)
+4. [Configuration](#configuration)
+5. [Contributing](#contributing)
+6. [License](#license)
+7. [Authors and Acknowledgments](#authors-and-acknowledgments)
+8. [FAQ](#faw)
+9. [Changelog](#changelog)
+10. [Contact Information](#contact-information)
+
+##Installation
+To install and run the project locally:
+
+1. **Clone the repository:**
+```bash
+git clone https://github.com/iriscorreiss/Megaventory-App.git
+```
+
+2. **Navigate to the project directory:**
+```bash
+cd Megaventory-App
+```
+
+2. **Install the required dependencies:**
+```bash
+pip install -r requirements.txt
+```
+
+3. **Run the application:**
+```bash
+python app.py
+```
+
+##Usage
+The application connects to the Megaventory API and allows users to manage inventory, process orders, and view reports. 
+It provides a comprehensive interface for handling various inventory management tasks.
+
+##Configuration
+Update the configuration file with your Megaventory API key and other necessary details.
+
+##Contributing
+Contributions are welcome! Follow these steps to contribute:
+
+Fork the repository.
+1. **Create a new branch**
+   ```bash
+   git checkout -b feature-branch
+   ```
+
+2. **Commit your changes**
+   ```bash
+   git commit -m 'Add new feature'
+   ```
+
+3. **Push to the branch**
+   ```bash
+   git push origin feature-branch
+   ```
+
+4. Open a pull request.
 
 
-This repository contains a Node.js application that provides a seamless integration with the MegaVentory API. MegaVentory is a service that helps businesses manage their inventory and relationships with suppliers and clients. With this application, you can easily insert and update product information, supplier/client data, inventory locations, and availability information using the MegaVentory API.
-
-Getting Started
-Before you begin using this application, you need to set up your API key. Follow these steps:
-
-Obtain your MegaVentory API key.
-Create a config.js file in the root directory of the application and add your API key as follows:
-javascript
-Copy code
-const config = {
-  API_KEY: 'YOUR_API_KEY_HERE',
-};
-
-module.exports = config;
-Usage
-This application allows you to insert various entities into your MegaVentory account, including products, suppliers/clients, inventory locations, and availability data. Here's how you can use it:
-
-Import the required modules and create an instance of the MegaventoryAPI class in your index.js file, as shown below:
-javascript
-Copy code
-const MegaventoryAPI = require('./megaventoryAPI');
-const config = require('./config');
-// ... (other imports)
-
-const megaventory = new MegaventoryAPI(config.API_KEY);
-Use the insertEntity function to insert different entities. For example, to insert a product, use:
-javascript
-Copy code
-insertEntity('Product', productData);
-Replace 'Product' with the entity type you want to insert (e.g., 'SupplierClient', 'InventoryLocation') and provide the data accordingly.
-
-The application will send a POST request to the MegaVentory API and log the result. If the insertion is successful, you will see a success message. If there is an error, an error message will be displayed.
-Data Files
-The application uses separate data files for different entity types, making it easy to manage and modify the data you want to insert. These data files are located in the root directory of the application and include:
-
-productData.js: Product data.
-productSupplierClientData.js: Supplier/client data.
-locationData.js: Inventory location data.
-relationshipData.js: Relationship data for products and clients/suppliers.
-availabilityData.js: Availability data for products.
-You can customize the data in these files to match your specific requirements.
-
-Contributing
-Feel free to contribute to this repository by submitting issues, proposing new features, or making improvements to the existing codebase.
-
-License
+##License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-Acknowledgments
-Special thanks to MegaVentory for providing the API that makes this integration possible.
+##Authors and Acknowledgments
+- **Iris Correia** - Initial work - [GitHub Profile](https://github.com/iriscorreiss)
+- Acknowledgments to any libraries or third-party tools used.
 
-Enjoy using this application to streamline your inventory management with MegaVentory!
+##FAQ
+Q: What functionalities does the Megaventory App offer?
+A: The app provides features such as inventory management, order processing, and report generation using the Megaventory API.
+
+##Changelog
+All notable changes to this project will be documented here.
+
+##Contact Information
+For inquiries or feedback, please contact Iris Correia.
