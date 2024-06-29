@@ -28,16 +28,34 @@ git clone https://github.com/iriscorreiss/Megaventory-App.git
 cd Megaventory-App
 ```
 
-2. **Install the required dependencies:**
+3. **Set up a virtual environment (optional but recommended):**
+```bash
+python -m venv env
+source env/bin/activate   # On Windows use `env\Scripts\activate`
+```
+
+4.**Install the required dependencies:**
 ```bash
 pip install -r requirements.txt
 ```
 
-3. **Run the application:**
+5.**Set up environment variables:**
+Create a .env file in the root directory of the project.
+Add your Megaventory API key and other necessary configuration details to the .env file:
 ```bash
-python app.py
+MEGAVENTORY_API_KEY=your_api_key_here
+OTHER_CONFIG=value
 ```
 
+6.**Run database migrations (if applicable):**
+```bash
+python manage.py migrate
+```
+
+7. **Run the application:**
+```bash
+python manage.py runserver
+```
 ## Usage
 The application connects to the Megaventory API and allows users to manage inventory, process orders, and view reports. 
 It provides a comprehensive interface for handling various inventory management tasks.
