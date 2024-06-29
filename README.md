@@ -4,7 +4,7 @@
 This project was developed for a job application and showcases an application using Megaventory's API. The app demonstrates various functionalities such as inventory management and order processing.
 
 ## Table os Contents
-1. [DEascription](#description)
+1. [Description](#description)
 2. [Installation](#installation)
 3. [Usage](#usage)
 4. [Configuration](#configuration)
